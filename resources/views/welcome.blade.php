@@ -76,8 +76,11 @@
                                     >Phone</th>
                                     <th scope="col" class="px-6 py-3 text-start text-lg font-medium text-white uppercase"
                                     >Image</th>
-                                    <th scope="col" class="px-6 py-3 text-start text-lg font-medium text-white uppercase"
-                                    >Action</th>
+                                    <th scope="col" class="px-6 py-3 pr-16 text-right text-lg font-medium text-white uppercase">
+    Action
+</th>
+
+
                                 </tr>
                             </thead>
                             <tbody>
