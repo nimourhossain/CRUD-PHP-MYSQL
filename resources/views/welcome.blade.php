@@ -73,7 +73,7 @@
                                     <th scope="col" class="px-6 py-3 text-start text-lg font-medium text-white uppercase"
                                     >Age</th>
                                     <th scope="col" class="px-6 py-3 text-start text-lg font-medium text-white uppercase"
-                                    >Phone</th>
+                                    >disease</th>
                                     <th scope="col" class="px-6 py-3 text-start text-lg font-medium text-white uppercase"
                                     >Image</th>
                                     <th scope="col" class="px-6 py-3 pr-16 text-right text-lg font-medium text-white uppercase">
@@ -90,7 +90,7 @@
                                     <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800">{{ $patient->name }}</td>
                                     <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800">{{ $patient->adress }}</td>
                                     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800">{{ $patient->age }}</td>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800">{{ $patient->phone }}</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800">{{ $patient->disease }}</td>
                                     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800">
                                         <img src="{{ $patient->image }}" alt="{{ $patient->name }}'s Profile Picture" class="w-20 h-20 rounded-full">
                                     </td>

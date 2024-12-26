@@ -61,11 +61,11 @@
                         <p class="error-message">{{ $message }}</p>
                     @enderror
                 </div>
-                <!-- Phone Number Field -->
+                <!-- disease Number Field -->
                 <div>
-                    <label for="phone" class="form-label">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" class="form-input @error('phone') border-red-500 @enderror" placeholder="Enter your phone number" value="{{ old('phone') }}">
-                    @error('phone')
+                    <label for="disease" class="form-label">Disease</label>
+                    <input type="tel" id="disease" name="disease" class="form-input @error('disease') border-red-500 @enderror" placeholder="Enter your disease number" value="{{ old('disease') }}">
+                    @error('disease')
                         <p class="error-message">{{ $message }}</p>
                     @enderror
                 </div>

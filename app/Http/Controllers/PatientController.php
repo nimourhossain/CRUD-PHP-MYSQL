@@ -21,7 +21,7 @@ class PatientController extends Controller
             'name' => 'required|string|max:255',
             'adress' => 'required|string|max:255', // Corrected spelling to 'address'
             'age' => 'required|integer|min:1|max:120',
-            'phone' => 'required|string|max:15', // Adjust max length as needed
+            'disease' => 'required|string|max:15', // Adjust max length as needed
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048' // Max size 2MB
         ]);
 
@@ -29,7 +29,7 @@ class PatientController extends Controller
         $patient->name = $validatedData['name'];
         $patient->adress = $validatedData['adress']; // Corrected spelling to 'address'
         $patient->age = $validatedData['age'];
-        $patient->phone = $validatedData['phone'];
+        $patient->disease = $validatedData['disease'];
 
         // Handle image upload with a custom name
         if (isset($validatedData['image'])) {
@@ -68,7 +68,7 @@ class PatientController extends Controller
             'name' => 'required|string|max:255',
             'adress' => 'required|string|max:255', // Corrected spelling to 'address'
             'age' => 'required|integer|min:1|max:120',
-            'phone' => 'required|string|max:15', // Adjust max length as needed
+            'disease' => 'required|string|max:15', // Adjust max length as needed
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048' // Max size 2MB
         ]);
 
@@ -77,7 +77,7 @@ class PatientController extends Controller
         $patient->name = $validatedData['name'];
         $patient->adress = $validatedData['adress']; // Corrected spelling to 'address'
         $patient->age = $validatedData['age'];
-        $patient->phone = $validatedData['phone'];
+        $patient->disease = $validatedData['disease'];
 
         // Handle image upload with a custom name
         if (isset($validatedData['image'])) {
